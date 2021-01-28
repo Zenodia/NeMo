@@ -18,6 +18,8 @@ __pycache__/
 *$py.class
 **.pyc
 zh/
+zh_glue_data/
+zeno_exp/
 .ipynb_checkpoints/
 # C extensions
 *.so
