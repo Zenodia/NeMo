@@ -17,9 +17,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 **.pyc
-zh/
-zh_glue_data/
-zeno_exp/
+
 .ipynb_checkpoints/
 # C extensions
 *.so
@@ -156,6 +154,8 @@ cifar-10-batches-py
 # Test data.
 tests/.data
 tests/data
+#Zeno experiment data dir
+tests/
 
 # outputs folder
 examples/*/outputs
