@@ -81,6 +81,10 @@ def get_tokenizer(
         return nemo.collections.common.tokenizers.sentencepiece_tokenizer.SentencePieceTokenizer(
             model_path=tokenizer_model, special_tokens=special_tokens
         )
+    elif tokenizer_name =='spm':
+        return nemo.collections.common.tokenizers.spm_tokenizer.SPMTokenizer(
+            model_path=tokenizer_model, special_tokens=special_tokens
+        )
     elif tokenizer_name == 'yttm':
         return YouTokenToMeTokenizer(model_path=tokenizer_model, bpe_dropout=bpe_dropout)
     elif tokenizer_name == 'word':
