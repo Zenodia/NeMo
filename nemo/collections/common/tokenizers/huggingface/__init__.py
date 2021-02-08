@@ -13,3 +13,4 @@
 # limitations under the License.
 
 from nemo.collections.common.tokenizers.huggingface.auto_tokenizer import AutoTokenizer
+from nemo.collections.common.tokenizers.huggingface.HFBPE_tokenizer import HFBPETokenizer
