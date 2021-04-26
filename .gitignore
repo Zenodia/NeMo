@@ -173,3 +173,8 @@ examples/neural_graphs/*.yml
 .hydra/
 nemo_experiments/
 
+## nordic langs 
+/ckpt
+/checkpoint
+/NST_Svenska
+/sv
